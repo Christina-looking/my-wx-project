@@ -1,0 +1,6 @@
+/* pages/sale/sale.wxss */
+.cash-coupon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

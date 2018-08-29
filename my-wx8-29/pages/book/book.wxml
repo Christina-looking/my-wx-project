@@ -1,0 +1,54 @@
+<!--pages/book/book.wxml-->
+<view class='contain'>
+<!-- 基本介绍-->
+  <view class='section one'>
+    <text class='strong'>基本介绍</text>
+    <image src='../../images/banner1.jpg'></image>
+    <text class='normol one'>坚果，是闭果的一个分类，果皮坚硬，内含1粒或者多粒种子。如板栗，杏仁等的果实。坚果是植物的精华部分，一般都营养丰富，含蛋白质、油脂、矿物质、维生素较高，对人体生长发育、增强体质、预防疾病有极好的功效。
+    </text>
+  </view>
+
+  <!-- 主要作用-->
+  <view class='section two'>
+    <text class='strong'>主要作用</text>
+    <view class='distance'>
+      <text class='b'>营养作用</text>\n
+      <text class='normol'>坚果营养全面、丰富。常食对心脏病、癌症、血管病有预防和治疗作用，坚果同时还可明目健脑。       
+      </text>
+    </view>
+    <view class='distance'>
+      <text class='b'>预防作用</text>\n
+      <text class='normol'>因为坚果中富含蛋白质，又叫长生果，又叫植物肉，它是大自然给予人类最美好的礼物，它的营养价值被社会所公认，它含有的锌、锰、磷等人类所必须的微量元素对人类来说都是非常宝贵的！还能够调节人体内分泌、对于我们的大脑神经也有很好的调节功能，还能够防癌、抗癌。
+      </text>
+    </view>
+  </view>
+
+  <!-- 营养价值 -->
+  <view class='section three'>
+    <text class='strong'>营养价值</text>
+    <view class='distance'>
+      <text class='b'>成份</text>
+      <text class='normol'>坚果中分别含有蛋白质36.0%、脂肪58.8%、碳水化合物72.6%，还含有维生素（维生素B、维生素E等）、微量元素（磷、钙、锌、铁）、膳食纤维等。另外，其中还含有单不饱和脂肪酸、多不饱和脂肪酸，包括亚麻酸、亚油酸等人体的必需脂肪酸。坚果营养全面、丰富。常食对心脏病、癌症、血管病有预防和治疗作用，坚果同时还可明目健脑。       
+      </text>
+    </view>
+    <view class='distance'>
+      <text class='b'>热量</text>\n
+      <text class='normol'>吃坚果每天适宜吃30克左右，如果不小心多吃坚果，就要减小一日三餐用油量和饮食量。
+      </text>
+    </view>
+  </view>
+
+  <!-- 食用方法 -->
+  <view class='section three'>
+    <text class='strong'>食用方法</text>
+    <view class='distance'>
+      <text class='normol'>1、坚果食用的最佳时间。最佳时间为饭中吃。这是因为饭后吃会造成一日当中能量摄入过量。饭中吃坚果，有利于增强我们的饱腹感，特别是大杏仁、小杏仁、榛
+子这种含膳食纤维量很高坚果，效果最好。       
+      </text>
+    </view>
+    <view class='distance'>
+      <text class='normol'>2、坚果食用方式。坚果可以切碎吃和整粒吃，不过各有利弊，因人而异。大杏仁整粒吃的时候，饱腹感会比较强，餐后控制血糖上升的效果更好一些。比如大杏仁质地紧密，纤维含量高，彻底嚼碎磨碎比较困难，所以消化速度慢，引起的血糖、血脂的上升速度自然也会比较慢。打碎吃则可能让消化速度加快。如果磨成酱，就更是如此。
+      </text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,41 @@
+<!--pages/company/company.wxml-->
+<view class="wraper">
+    <view class="listItems">
+        <text class="listLeft"><text class='red'>*</text>姓名: </text>
+        <input id="name" class="listRight" bindinput="nameInput" type="number" value=" " name="" placeholder='请输入姓名'/>
+    </view>
+     <view class="listItems">
+        <text class="listLeft"><text class='red'>*</text>手机号码: </text>
+        <input id="name" class="listRight" bindinput="phoneInput" type="number" value=" " name="" placeholder='请输入手机号码'/>
+    </view>
+    <!-- 选择身份 -->
+    <view class="listItems">
+        <text class="listLeft"><text class='red'>*</text>身份: </text>
+        <picker class='listRight picker' mode="selector" bindchange="bindPickerChange" value="{{index}}" range="{{person}}">
+          <view >
+            {{person[index]}}
+          </view>
+        </picker>
+    </view>
+    <view class="listItems">
+        <text class="listLeft"><text class='red'>*</text>地址: </text>
+        <picker class="listRight picker" mode="region" value="{{region}}" bindchange="bindRegionChange">
+          {{region[0]}}-{{region[1]}} {{region[2]}}
+        </picker>
+    </view>
+     <view class="listItems">
+        <text class="listLeft">街道地址: </text>
+        <input id="name" class="listRight" bindinput="moreAddressInput" type="number" value=" " name=""/>
+    </view>
+    <!-- 留言 -->
+    <view class="listItems">
+        <text class="listLeft">留言: </text>
+        <textarea class="listRight" bindblur="bindTextAreaBlur"  placeholder="请输入留言内容" auto-height />
+    </view>
+    <view class=" listItems">
+      <text class='green listLeft' bindtap='ways'>了解合作方式？</text>
+    </view>
+    <view class="btnGroup">
+        <button class="btn" type="warn" size="defalut" bindtap='returnAddress'>预约</button>
+    </view>
+</view>

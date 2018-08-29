@@ -1,0 +1,39 @@
+<!--pages/us/us.wxml-->
+<view class="page-phone">
+    <view class="content">
+        <view class="title"><text class='text'>澳洲坚果生产服务平台</text></view>
+       <!-- 轮播图 -->
+       <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+            <swiper-item>
+              <image src="{{item}}" class="slide-image" width="355" height="150"/>
+            </swiper-item>
+        </block>
+       </swiper>
+       <view class='detail'>
+        <text>{{text}}</text>
+       </view>
+    </view>
+
+    <view class="content">
+      <view class="title"><text class='text'>联系我们</text></view>
+      <!-- 地址 -->
+      <view class="wx-cell">
+         <view class="icon">
+            <image src="{{adrimg}}" class="icon-postion"></image>
+         </view>
+         <view class="cell-bd" bindtap="getLocation">成都市武侯区环球东路</view>
+      </view>
+      <!-- 电话 -->
+      <view class="wx-cell" bindtap="calling">
+         <view class="icon">
+            <image src="{{phoneimg}}" class="icon-postion"></image>
+         </view>
+         <view class="cell-bd">400-001-9651</view>
+      </view>
+      <view>
+        <map id="map" longitude="104.0647602024899" latitude="30.570199203179985" scale="14" markers="{{markers}}" show-location style="width: 100%; height: 300rpx;margin-bottom:20rpx;"></map>
+        <text class="cell-bd" bindtap="getLocation">四川省成都市武侯区环球东路</text>
+      </view>
+    </view>  
+</view>

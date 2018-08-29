@@ -1,0 +1,36 @@
+<!--pages/ways/ways.wxml-->
+<!--pages/book/book.wxml-->
+<view class='contain'>
+<!-- 基本介绍-->
+  <view class='section one'>
+    <text class='strong'>基本含义</text>
+    <text class='normol'>一种联合行动的方式
+    </text>
+  </view>
+
+  <!-- 合作的类型-->
+  <view class='section two'>
+    <text class='strong'>合作的类型</text>
+    <view class='distance'>
+      <text class='b'>正式合作</text>\n
+      <text class='normol'>正式合作是指具有契约性质的合作，这种合作形式明文规定了合作者享有的权利和义务，通过一定法律程序，并受到有关机关的保护。按合作的参加者分，有个人间的和群体间的合作等等。就合作本质而言，双方具有平等的法人地位，在自愿、互利的基础上实行不同程度的联合。
+      </text>
+    </view>
+  </view>
+
+  <!-- 合作的条件 -->
+  <view class='section three'>
+    <text class='strong'>合作的条件</text>
+    <view class='distance'>
+      <text class='b'>(一)目标一致:</text>
+      <text class='normol'>合作总要有某种共同目标，至少是短期共同目标，否则无法合作。       
+      </text>
+    </view>
+    <view class='distance'>
+      <text class='b'>(二)统一的认识和规范：</text>\n
+      <text class='normol'>合作者应对共同目标、实现途径和具体步骤等，有基本一致的认识;在联合行动中合作者必须遵守共同认可的社会规范和群体规范。
+      </text>
+    </view>
+  </view>
+</view>
+

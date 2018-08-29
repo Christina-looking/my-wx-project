@@ -1,0 +1,40 @@
+<!--pages/my/my.wxml-->
+<view class="box">
+  <!-- 获取用户昵称和头像 -->
+  <view class="userinfo">
+    <button open-type="getUserInfo" bindgetuserinfo="getUserInfo"></button>
+    <open-data class="userAvatarUrl" type="userAvatarUrl" lang="zh_CN"></open-data>
+    <open-data class="userNickName" type="userNickName" lang="zh_CN"></open-data>
+  </view>
+
+  <!-- 内容部分 -->
+  <view class="bg">
+    <view class="userInfoo">
+      <view class="useInfo-style">
+        <image src="../../images/address.png" mode="widthFix" ></image>
+        <text bindtap='Addaddress'>地址管理</text>
+      </view>
+      <view class="useInfo-style">
+        <image src="../../images/dingdan.png" mode="widthFix"></image>
+        <text bindtap='myDingdan'>我的订单</text>
+      </view>
+      <view class="useInfo-style">
+        <image src="../../images/shopping1.png" mode="widthFix"></image>
+        <text bindtap='Addshopping'>购物车</text>
+      </view>
+      <view class="useInfo-style">
+        <image src="../../images/vip.png" mode="widthFix"></image>
+        <text bindtap='Addvip'>会员卡</text>
+      </view>
+      <view class="useInfo-style">
+        <image src="../../images/zhekou.png" mode="widthFix"></image>
+        <text bindtap='Addmoney'>优惠券</text>
+      </view>
+      <view class="useInfo-style">
+        <image src="../../images/scores.png" mode="widthFix"></image>
+        <text bindtap='Addscores'>积分</text>
+      </view>
+      
+    </view>
+  </view>
+</view>

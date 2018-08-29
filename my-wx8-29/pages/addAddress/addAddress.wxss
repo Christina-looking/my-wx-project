@@ -1,0 +1,41 @@
+page{
+    background: #fff;
+    font-size: 30rpx;
+}
+.wraper .listItems{
+    padding: 0 30rpx;
+    height: 120rpx;
+    line-height: 120rpx;
+    border-bottom: 1rpx solid #f3f3f3;
+}
+.wraper .listItems .listLeft{
+    float: left;
+}
+.wraper .listItems .listRight{
+    float: left;
+    margin-left: 20rpx;
+    margin-top: 40rpx;
+    width: 420rpx;
+}
+/* 省市区 */
+.wraper .listItems .listRight.picker{
+   margin-top: 0;
+   height: 100%;
+}
+/* swith */
+.switch {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 24rpx;
+}
+.switch switch{
+  margin-left: 20rpx;
+}
+.btnGroup .btn{
+    /* width: 80%;
+    height: 90rpx;
+    border-radius: 45rpx; */
+    color: #fff;
+    margin-top: 30rpx;
+}

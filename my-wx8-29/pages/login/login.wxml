@@ -1,0 +1,41 @@
+<!--pages/login/login.wxml-->
+<!-- <view class='contain'>
+  <form bindsubmit="formSubmit">
+    <view>
+      用户名：
+     <input type="text" bindinput="userNameInput" placeholder='请输入账号'/>
+    </view>
+    <view>
+    密码：
+     <input type="text" bindinput="userPasswordInput" password="true" placeholder='请输入密码'/>
+    </view>
+    <!-- login-btn -->
+   <!--  <view class="btn-login">
+      <button formType="button" bindtap="login">登录</button>
+    </view>
+  </form>
+</view> --> 
+<view class='container '>
+  <view bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"
+  background-size="cover"/>
+  </view>
+  <view class="login-from">
+    <!--账号-->
+    <view class="inputView">
+      <label class="loginLab">账号:</label>
+    <input class="inputText" placeholder="请输入账号" bindinput="phoneInput" />
+  </view>
+    <!--密码-->
+    <view class="inputView">
+       <label class="loginLab">密码:</label>
+       <input class="inputText" password="true" placeholder="请输入密码"
+  bindinput="passwordInput"/>
+    </view>
+    <!--按钮-->
+    <view class="loginBtnView">
+     <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}"
+  plain="{{plain}}" disabled="{{disabled}}" bindtap="login">登录</button>
+     </view>
+  </view>
+</view>

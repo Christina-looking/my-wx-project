@@ -1,0 +1,28 @@
+/* pages/mysale/mysale.wxss */
+
+.title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 30rpx;
+  font-weight: 600;
+  border-bottom: 2rpx solid #eee;
+  border-top: 2rpx solid #eee;
+  padding: 20rpx 0;
+  margin: 0 5%;
+}
+/* 点击样式 */
+.red{
+  color: orangered;
+}
+
+.show{
+  display:block;
+  text-align:center;
+  line-height:200rpx;
+  color: rgb(100, 96, 96);
+  font-size: 28rpx;
+  }
+.hidden{
+  display:none;
+  }

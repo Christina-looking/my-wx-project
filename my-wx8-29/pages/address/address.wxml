@@ -1,0 +1,21 @@
+<!--pages/address/address.wxml-->
+<view class="box">
+    <view class='address'>
+        <block wx:for="{{list}}" wx:key="index">
+          <view class="item" data-id="{{item.id}}" id='{{item.id}}'>
+          {{item.id}}
+             <text> {{item.name}}</text>
+             <text>{{item.tel}}</text>
+             <text>{{item.addre}}</text>
+          </view>
+          <view class='handle'>
+            <view class='red'>默认地址</view>
+            <view>
+              <text class='first' bindtap='deladdre' data-delid="{{item.id}}" id='{{item.id}}'>删除</text>
+              <text class='second' bindtap='updataddre' data-updataid="{{item.id}}" id='{{item.id}}'>编辑</text>
+            </view>
+          </view>
+        </block>
+        <!-- <button class="red">新增地址</button> -->
+    </view>
+</view>

@@ -1,0 +1,14 @@
+<!--pages/mysale/mysale.wxml-->
+<view class="box">
+  <view class='title'>
+    <text class=" {{selected?'red':'default'}}" bindtap="selected"> 未使用</text>
+    <text class="{{selected1?'red':'default'}}" bindtap="selected1"> 已使用</text>
+    <text class="{{selected2?'red':'default'}}" bindtap="selected2"> 已过期</text>
+  </view>
+  <view class="{{selected||selected1?'show':'hidden'}}">
+    <text>暂时没有优惠券</text>
+  </view>
+  <view class="{{selected2?'show':'hidden'}}">
+    <text>没有过期优惠券</text>
+  </view>
+</view>

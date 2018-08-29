@@ -1,0 +1,28 @@
+<!--添加收货地址-->
+<view class="wraper">
+    <view class="listItems">
+        <text class="listLeft">收货人姓名: </text>
+        <input id="name" class="listRight" bindinput="nameInput" type="number" value=" " name=""/>
+    </view>
+     <view class="listItems">
+        <text class="listLeft">手机号码: </text>
+        <input id="name" class="listRight" bindinput="phoneInput" type="number" value=" " name=""/>
+    </view>
+    <view class="listItems">
+        <text class="listLeft">所在地区: </text>
+        <picker class="listRight picker" mode="region" value="{{region}}" bindchange="bindRegionChange">
+          {{region[0]}}-{{region[1]}} {{region[2]}}
+        </picker>
+    </view>
+     <view class="listItems">
+        <text class="listLeft">街道地址: </text>
+        <input id="name" class="listRight" bindinput="moreAddressInput" type="number" value=" " name=""/>
+    </view>
+    <view class="switch listItems">
+    <text class='listLeft'>设置为默认地址</text>
+      <switch bindchange="switchChange"/>
+    </view>
+    <view class="btnGroup">
+        <button class="btn" type="warn" size="defalut" bindtap='returnAddress'>确认添加</button>
+    </view>
+</view>

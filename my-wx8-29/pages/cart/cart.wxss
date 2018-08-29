@@ -1,0 +1,110 @@
+/* 单块订单 */
+.product-id {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+    font-size: 30rpx;
+    padding-bottom: 20rpx;
+}
+
+.product-id image {
+    flex-basis: 30%;
+}
+.red{
+  color: #eee;
+}
+.product-id text {
+    display: inline-block;
+    margin-top: 10rpx;
+}
+
+.product-id .product-mesg {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* 产品名称，价格，数量 */
+.product-mesg .child{
+  flex-basis:40%;
+}
+
+.product-price {
+    color: red;
+}
+/* 数量增加，删除的父级 */
+.math-btn {
+  flex-basis: 50%;
+    display: flex;
+    /* justify-content: space-around; */
+    height: 60rpx;
+    margin-top: 20rpx;
+}
+/* 增删数量按钮 */
+.math-btn text {
+    text-align: center;
+} 
+.delete{
+  margin-left: 80rpx;
+}
+.bord {
+    flex-basis: 10%;
+    border: 2rpx solid #ccc;
+    display: inline-block;
+    text-align: center;
+}
+
+.total {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 15%;
+    text-align: center;
+}
+
+.total text {
+    color: red;
+    padding-top: 4%;
+}
+
+.total button {
+    margin-top: 4%;
+    background-color: orangered;
+}
+/* nothing */
+.nothing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nth-title {
+    text-align: center;
+    font-size: 28rpx;
+    color: rgb(129, 124, 124);
+}
+/* 去购物按钮 */
+.shopping-btn {
+    margin-top: 2%;
+}
+.shopping-btn button{
+  background-color: orangered;
+  color: #fff;
+  font-size: 26rpx;
+}
+/*.............................  */
+
+.active {
+    color: black;
+    flex-basis: 10%;
+    border: 2rpx solid #ccc;
+    display: inline-block;
+    text-align: center;
+}
+
+.unable {
+    color: #ccc;
+    flex-basis: 10%;
+    border: 2rpx solid rgb(5, 2, 2);
+    display: inline-block;
+    text-align: center;
+}

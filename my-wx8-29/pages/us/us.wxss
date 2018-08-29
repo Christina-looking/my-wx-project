@@ -1,0 +1,55 @@
+/* pages/us/us.wxss */
+/**about.wxss**/
+.page-phone{
+  font-size: 30rpx;
+}
+
+.content{
+  padding: 41rpx;
+  border-top: 1rpx #eeeeee solid;
+  border-bottom:1rpx #eeeeee solid;
+ 
+}
+/* 图标文字外层 */
+.wx-cell{
+  margin-bottom: 30rpx;
+  margin-left: 50rpx;
+  position: relative;
+  margin-top: 20rpx;
+}
+.icon{
+  width: 50rpx;
+  height:50rpx;
+  position: absolute;
+  left:-55rpx;
+  top:-6rpx;
+}
+.icon-postion{
+  width: 50rpx;
+  height:50rpx;
+}
+
+/* 地址电话 */
+.cell-bd{
+  font-size: 26rpx;
+  color:#666;
+ 
+}
+/* 标题 */
+.title{
+  padding-bottom: 10rpx;
+}
+.text{
+ border-left: 4rpx solid rgb(121, 117, 117);
+ padding-left: 10rpx;
+ font-size: 28rpx;
+ font-weight: 600;
+}
+/* 服务平台介绍 */
+.detail{
+  font-size: 26rpx;
+  color :#666;
+  margin-top: 20rpx;
+  text-indent: 20rpx;
+  line-height: 45rpx;
+}

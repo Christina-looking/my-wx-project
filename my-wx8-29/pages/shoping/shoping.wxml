@@ -1,0 +1,40 @@
+<!--pages/shoping/shoping.wxml-->
+<view class="box">
+    <!-- banner -->
+    <view class="banner">
+        <image src="../../images/banner5.jpg"></image>
+    </view>
+
+    <!-- 显示合作商家产品 -->
+    <view class="btn-nav">
+        <text class="{{selected?'red':'default'}}" bindtap="changeProductAll">全部</text>
+        <text  class="{{selected1?'red':'default'}}"bindtap="changeProducSan">三只松鼠</text>
+        <text  class="{{selected2?'red':'default'}}" bindtap="changeProducLiang">良品铺子</text>
+        <text class="{{selected3?'red':'default'}}"  bindtap="changeProductQia">洽洽</text>
+    </view>
+    <!-- 产品列表 -->
+    <view class="productList">
+        <block wx:for="{{arr}}" wx:key="{{index}}">
+            <view class="productDetail">
+                <image src="{{item.src}}" mode="aspectFill" bindtap="listClickon" id="{{index}}" wx:key="id"></image>
+                <view class="product-Text">
+                    <text>{{item.title}}</text>
+                </view>
+                <view class="product-price">
+                    <text>￥{{item.price}}</text>
+                    <image src="../../images/shopping1.png" mode="aspectFit" bindtap='addShopping'></image>
+                </view>
+                 <view class="product-Text-two">
+                    <text class='grey'>{{item.num}}</text>
+                </view>
+            </view>
+        </block>
+    </view>
+
+    <!-- 右侧固定图标：进入购物车 -->
+    <view class="xfk">
+        <view class="fk1">
+            <image src="../../images/shopping3.png" bindtap='enterShopping'></image>
+        </view>
+    </view>
+</view>

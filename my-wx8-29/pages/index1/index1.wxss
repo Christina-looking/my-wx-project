@@ -1,0 +1,85 @@
+/* pages/index1/index1.wxss */
+
+/* 最外层 */
+.contain{
+  font-size: 30rpx;
+  width: 750rpx;
+  background-color: #eee;
+}
+/* swiper-image-fa */
+.page-section{
+  width: 100%;
+  height: 300rpx;
+  margin-bottom: 20rpx;
+}
+/* swiper image */
+.page-section image{
+  width: 100%;
+  height: 100%;
+}
+
+/* 图标部分 */
+.sectionone{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: 	#FFF;
+  margin-bottom: 20rpx;
+}
+/* 图标图片 */
+.sectionone .sectionone-item{
+   margin-top: 20rpx;  
+   margin-bottom: 30rpx;
+   width: 16%;
+}
+.sectionone .sectionone-item image{
+  width: 80%;
+  height: 80rpx;
+}
+/* 图标下方文字 */
+.sectionone .sectionone-item .sectionone-item-text{
+  font-size: 24rpx;
+}
+
+/* 热门推荐 */
+.hot{
+  padding-top: 20rpx; 
+  padding-left: 10rpx;
+  background-color: #fff;
+}
+.hot text{
+  border-left: 4rpx solid rgb(165, 162, 162);
+  padding-left: 20rpx;
+  margin-bottom: 20rpx;
+}
+/* 图文 */
+/* 图文最外层 */
+.imgtext{
+  padding-top: 20rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* 每一块图文 */
+.itemFa{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.content-img image{
+  width: 100%;
+  height: 200rpx;
+}
+/* text */
+.text-one{
+  font-size: 28rpx;
+}
+.text-two{
+  font-size: 24rpx;
+  color: red;
+}
+.text-three{
+  color: rgb(165, 162, 162);
+  font-size: 24rpx;
+}

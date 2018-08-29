@@ -1,0 +1,18 @@
+/* pages/login/login.wxss */
+.contain form{
+  width: 100%;
+  display:flex;
+  flex-direction: column; 
+  justify-content: center;
+  font-size: 30rpx;
+}
+.contain form view{
+  border-top: 2rpx solid #eee;
+ /*  border-bottom: 2rpx solid #eee; */
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+.btn-login button{
+  margin-top: 20rpx;
+  background-color: lightgreen;
+}

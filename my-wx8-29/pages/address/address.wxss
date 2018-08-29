@@ -1,0 +1,26 @@
+/* pages/address/address.wxss */
+.box{
+  font-size: 28rpx;
+}
+.address{
+  margin-left: 20rpx;
+  line-height: 45rpx;
+}
+.address text{
+  margin-left: 10rpx;
+  font-size: 26rpx;
+}
+.red{
+  color: orangered;
+}
+/* 操作 */
+.handle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 30rpx;
+  color: rgb(73, 71, 71);
+}
+.handle text{
+  font-size: 26rpx;
+}

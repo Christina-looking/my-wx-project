@@ -1,0 +1,39 @@
+/* pages/book/book.wxss */
+.contain{
+  width: 100%;
+}
+/* 图片标题 */
+.section{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.contain .strong{
+  margin-bottom: 30rpx;
+  font-weight: 600;
+}
+.distance{
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  margin-bottom: 20rpx;
+  width: 90%;
+}
+/* 字体加粗 */
+.b{
+  font-size: 30rpx;
+  font-weight: 600;
+  /* margin-left: 40rpx; */
+}
+.one{
+  width: 95%;
+}
+/* 文本字体 */
+.normol{
+  text-indent: 20rpx;
+  margin-top: 30rpx;
+  font-size: 24rpx;
+  margin-left: 40rpx;
+  margin-bottom: 30rpx;
+  line-height: 40rpx;
+}
+
